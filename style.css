@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: #000; /* Black text for better contrast */
+    font-family: Arial, sans-serif; /* Add a clean font */
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px; /* Add padding for better appearance */
+    font-size: 16px; /* Increase font size */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+button:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+input {
+    padding: 10px; /* Add padding for better appearance */
+    font-size: 16px; /* Increase font size */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input:focus {
+    outline: none; /* Remove default outline */
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.results {
+    margin-top: 20px; /* Add some space above results */
+    text-align: left; /* Align text to the left */
+    display: inline-block; /* Center the block */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Default theme */
+body.blue-theme {
+    background-color: rgb(173, 216, 230); /* Light blue background */
+}
+
+input.blue-theme {
+    background-color: rgb(176, 224, 230); /* Powder blue background */
+    border: 1px solid rgb(135, 206, 250); /* Sky blue border */
+}
+
+/* Pink theme */
+body.pink-theme {
+    background-color: rgb(255, 182, 193); /* Light pink background */
+}
+
+input.pink-theme {
+    background-color: rgb(255, 182, 193); /* Light pink background */
+    border: 1px solid rgb(255, 105, 180); /* Hot pink border */
+}
+
+/* Orange theme */
+body.orange-theme {
+    background-color: rgb(255, 165, 0); /* Orange background */
+}
+
+input.orange-theme {
+    background-color: rgb(255, 165, 0); /* Orange background */
+    border: 1px solid rgb(255, 140, 0); /* Dark orange border */
+}
+
+/* Green theme */
+body.green-theme {
+    background-color: rgb(144, 238, 144); /* Light green background */
+}
+
+input.green-theme {
+    background-color: rgb(144, 238, 144); /* Light green background */
+    border: 1px solid rgb(60, 179, 113); /* Medium sea green border */
+}
+
+/* Button hover effects */
+button.blue-button:hover {
+    background-color: rgb(135, 206, 250) !important; /* Sky blue background */
+}
+
+button.pink-button:hover {
+    background-color: rgb(255, 105, 180) !important; /* Hot pink background */
+}
+
+button.orange-button:hover {
+    background-color: rgb(255, 140, 0) !important; /* Dark orange background */
+}
+
+button.green-button:hover {
+    background-color: rgb(60, 179, 113) !important; /* Medium sea green background */
+}
